@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu {
+  background-color: #98c;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #8FBC8F;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+
+.home_leftcolumn {   
+  float: left;
+  width: 65%;
+  margin-left: 10px;
+}
+
+.home_leftcolumn .card {
+  background-color: #e2ece2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 45%;
+  margin-left: 10px;
+}
+
+.leftcolumn .card {
+   background-color: #e2ece2;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 10px;
+}
+
+.rightcolumn .card {
+   background-color: #e2ece2;
+   padding: 20px;
+   margin-top: 20px;
+}
+.rightcolumn .card p {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.rightcolumn .card p a {
+  text-decoration: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.detail a{
+  text-decoration: none;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  padding: 20px;
+}
+
+/* Contact Page */
+
+h3.contact  {
+      margin-left: 10px;
+}
+
+input[type=text], input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+} */
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+/* End Contact page */
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.footer{
+  background-color: #98c;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.footer-content {
+  padding: 5px;
+}
+
+.footer-content p{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+
+} 
+
+
+
+
+
